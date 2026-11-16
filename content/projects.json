@@ -2,11 +2,12 @@
   "projects": [
     {
       "title": "Digital Twin for Urban Heat Island (UHI) Mitigation",
-      "description": "Urban areas often experience higher temperatures due to excessive concrete surfaces, buildings and limited vegetation, creating Urban Heat Islands (UHIs). These conditions contribute to heat-related health risks, increased energy consumption and environmental challenges. To address this problem, I developed a Digital Twin platform that uses geospatial data, temperature mapping and interactive simulations to identify heat hotspots and evaluate cooling strategies such as tree planting, green spaces and green roofs. The system supports data-driven decision-making for sustainable urban planning.\n\nTechnologies Used Include: Python Backend and Plotly Dash frontend.",
+      "description": "Urban areas experience higher temperatures due to buildings, concrete surfaces and limited vegetation, creating Urban Heat Islands (UHIs). I developed a Digital Twin platform that visualizes urban temperature patterns and simulates cooling strategies such as tree planting, green spaces and green roofs, supporting informed decisions for sustainable urban planning.\n\nTechnologies Used: Python (Backend), Plotly Dash (Frontend).",
       "category": "Computer Science Final Year Project",
       "demo_url": "https://digitaltwin-uhi-0i0i.onrender.com",
       "source_url": "https://github.com/SIKANYIKA-LEWIS/DigitalTwin_UHI",
-      "preview_type": "website"
+      "preview_type": "website",
+      "image": "images/uploads/screenshot-124-.png"
     }
   ]
 }
