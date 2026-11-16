@@ -1,10 +1,6 @@
-
 backend:
-  name: github
-  repo: SIKANYIKA-LEWIS/Portfolio
-  branch: main
-
-local_backend: true
+  name: turbo-github
+  turbo_site_id: b5ab6c3e-2689-44bd-b034-41a216961581
 
 media_folder: "images/uploads"
 public_folder: "images/uploads"
