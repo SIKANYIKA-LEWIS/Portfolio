@@ -22,7 +22,8 @@
       "category": "Organizational Website",
       "description": "A website developed to establish the foundation's online presence, showcase its mission, initiatives and team, and provide information about its advocacy programmes. The platform also includes contact facilities to support communication and engagement with the organization.",
       "image": "images/uploads/screenshot-129-.png",
-      "preview_type": "website"
+      "preview_type": "website",
+      "demo_url": "https://sheisgirlfoundation.netlify.app/"
     }
   ]
 }
