@@ -1,0 +1,56 @@
+
+backend:
+  name: github
+  repo: SIKANYIKA-LEWIS/Portfolio
+  branch: main
+
+local_backend: true
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    files:
+      - label: "Project List"
+        name: "project_list"
+        file: "content/projects.json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.category}}"
+            fields:
+              - label: "Project Title"
+                name: "title"
+                widget: "string"
+              - label: "Category"
+                name: "category"
+                widget: "string"
+                required: false
+              - label: "Description"
+                name: "description"
+                widget: "text"
+                required: false
+              - label: "Preview Design"
+                name: "preview_type"
+                widget: "select"
+                options:
+                  - "dashboard"
+                  - "excel"
+                  - "payroll"
+                  - "website"
+                  - "image"
+              - label: "Demo Link"
+                name: "demo_url"
+                widget: "string"
+                required: false
+              - label: "Source Code Link"
+                name: "source_url"
+                widget: "string"
+                required: false
+              - label: "Project Image"
+                name: "image"
+                widget: "image"
+                required: false
